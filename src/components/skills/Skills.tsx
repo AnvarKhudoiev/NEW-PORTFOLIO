@@ -9,6 +9,7 @@ const Skills = () => {
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ type: 'spring', stiffness: 100, damping: 10, delay: 0.6 }}
             className="sm:order-2 font-bold relative">
             <div className=" text-center text-6xl xl:text-8xl font-bold text-black/5 dark:text-gray-700">
